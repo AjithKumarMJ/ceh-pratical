@@ -1,0 +1,25 @@
+cloud computing
+ cd lazys3-master/
+ruby lazys3.rb
+To do so, type ruby lazys3.rb [Company] and press Enter.
+
+
+
+cd S3Scanner/ 
+pip3 install -r requirements.txt 
+python3 ./s3scanner.py sites.txt and press Enter to run the tool.
+
+
+Dump all open buckets and log both open and closed buckets in found.txt:
+
+python3 ./s3scanner.py --include-closed --out-file found.txt --dump names.txt
+
+Just log open buckets in the default output file (buckets.txt):
+
+python3 ./s3scanner.py names.txt
+
+Save the file listings of all open buckets to a file:
+
+python ./s3scanner.py --list names.txt
+
+
