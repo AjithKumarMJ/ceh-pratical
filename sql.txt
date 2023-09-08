@@ -1,7 +1,7 @@
 1 after disovering webstie find opearting system machien hosting
  namp -sv ip/24
 we can find the host like 3306  next 
-nmap -o ip
+nmap -O ip
  or namp -A ip/24  it will  be late
 
 2 in organizaitn network seucirty assesment domain execute domain name
