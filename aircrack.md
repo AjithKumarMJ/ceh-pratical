@@ -6,7 +6,7 @@ enable
 
 airmon-ng start wlan0
 
-suo kill all with id
+sudo kill all with id
 
  now do iwconfig
 
