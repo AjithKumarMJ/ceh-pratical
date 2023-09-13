@@ -1,3 +1,26 @@
+# WIRELESS NETOWORK HACKING
+
+wep this is
+
+ first copy that file and put it on desktop and open the terminal
+
+sudo  and go to root
+
+aircrack-ng '/home/attacker/Desktop/Sample Captures/WEPcrack-01.cap'
+ 
+ # now bssid not give wpap2 means
+
+first copy that file and put it on desktop and open the terminal
+
+sudo  and go to root
+
+come ho home 
+
+aircrack-ng -a2 -b [Target BSSID] -w /home/attacker/Desktop/Wordlist/password.txt '/home/attacker/Desktop/Sample Captures/WPA2crack-01.cap' 
+
+ if this not work means
+
+# Another Method
 iwconfig for checking
 
 enable
